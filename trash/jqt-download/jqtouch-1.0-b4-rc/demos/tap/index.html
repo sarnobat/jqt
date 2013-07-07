@@ -28,7 +28,7 @@
             $(function(){
 
                 $('#tapme').tap(function(){
-                    alert('hi');
+                    $(this).parent().after('<li>tapped!</li>')
                 });
                 
             });
@@ -36,8 +36,7 @@
 
     </head>
     <body>
-        <div id="jqt">
-            <div >
+            <div id="callbacks">
                 <div >
                     <ul >
                         <li><a href="#" id="tapme">Tap me!</a></li>
