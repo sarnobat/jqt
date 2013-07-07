@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>jQTouch &beta;</title>
+        <link rel="stylesheet" href="../../themes/css/jqtouch.css" title="jQTouch">
+
+        <script src="../../src/lib/zepto.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../src/jqtouch.min.js" type="text/javascript" charset="utf-8"></script>
+        <!-- Uncomment the following two lines (and comment out the previous two) to use jQuery instead of Zepto. -->
+        <!-- <script src="../../src/lib/jquery-1.7.min.js" type="application/x-javascript" charset="utf-8"></script> -->
+        <!-- <script src="../../src/jqtouch-jquery.min.js" type="application/x-javascript" charset="utf-8"></script> -->
+
+        <script src="../../extensions/jqt.themeswitcher.min.js" type="application/x-javascript" charset="utf-8"></script>
+
+        <script type="text/javascript" charset="utf-8">
+            var jQT = new $.jQTouch({
+            });
+        </script>
+    </head>
+    <body>
+        <div id="jqt">
+            <div id="forms">
+                <div class="toolbar">
+                    <h1>Forms</h1>
+                    <a href="#" class="back">Back</a>
+                </div>
+                <form class="scroll">
+                    <ul class="edit rounded">
+                        <li><input type="text" name="name" placeholder="Text" id="some_name" /></li>
+                    </ul>
+                </form>
+	        </div>
+        </div>
+    </body>
+</html>
